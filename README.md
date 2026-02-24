@@ -1,62 +1,81 @@
 # Retail-Excel-Dashboard
 
-🛒 Retail Performance Analytics Dashboard (Excel + Data Model + DAX)
-📌 Project Overview
+🛒 Retail Performance Analytics Dashboard
+Excel Data Model | Power Pivot | DAX | Time-Series Forecasting
+📌 Executive Summary
 
-This project presents an interactive Retail Performance Dashboard built using Excel Data Model and DAX.
+This project presents an interactive Retail Performance Analytics Dashboard built using Microsoft Excel’s Data Model and DAX.
 
-The objective was to move beyond simple reporting and design a business-oriented analytical solution capable of answering executive-level retail performance questions.
+The objective was to simulate a real-world retail analytics scenario (similar to Coles/Woolworths operations) and design a decision-support tool that enables business leaders to monitor revenue performance, profitability, operational efficiency, and short-term revenue outlook.
 
-The dashboard focuses on revenue performance, profitability, operational efficiency, store comparison, and predictive forecasting.
+The dashboard transforms raw transactional sales data into structured business intelligence insights with interactive filtering and predictive forecasting.
 
-🎯 Business Problem
+🎯 Business Objectives
 
-Retail businesses need visibility into:
+Retail decision-makers need visibility into:
 
-Which categories drive revenue?
+Which product categories drive the highest revenue?
 
-Which categories generate the highest margins?
+Which categories generate the strongest profit margins?
 
 Where is operational leakage occurring (wastage)?
 
-Which stores are outperforming?
+Which stores outperform others?
 
 Are there seasonal patterns in revenue?
 
-What is the expected revenue outlook for the next quarter?
+What is the projected revenue for the next quarter?
 
-This dashboard was built to address those questions in an interactive and structured way.
+This dashboard was designed to answer these questions in a clear, executive-ready format.
 
-🛠 Tools & Techniques Used
+🛠 Tools & Technologies Used
 
 Microsoft Excel
 
-Excel Data Model
+Excel Data Model (Relational Modeling)
 
 Power Pivot
 
-DAX Measures
+DAX (Data Analysis Expressions)
 
-Pivot-based Visualization
+Pivot Tables & Pivot Charts
 
 Slicers for interactivity
 
-Time-series forecasting (Excel ETS model)
+Excel ETS Time-Series Forecasting Model
 
-📊 Dashboard Features
+🧱 Data Model Architecture
+
+The solution uses a structured relational model:
+
+Sales Table (Transactional revenue data)
+
+Products Table (Category, cost structure)
+
+Stores Table (Store-level metadata)
+
+Calendar Table (Time dimension)
+
+Inventory Table (Operational metrics)
+
+Relationships were established using Product_ID, Store_ID, and Date keys to enable accurate aggregation and filtering.
+
+📊 Dashboard Components
 🔹 KPI Layer
 
 Total Revenue
 
 Gross Profit
 
-Margin %
+Gross Margin %
 
 Inventory Turnover
 
 Wastage Cost
 
-🔹 Category Analysis
+All KPIs were calculated using DAX measures to ensure correct aggregation logic under dynamic filtering.
+
+🔹 Category-Level Analysis
 
 Revenue by Category
 
@@ -64,80 +83,125 @@ Gross Margin % by Category
 
 Wastage Cost by Category
 
+This enables comparison of scale vs profitability vs operational efficiency.
+
 🔹 Trend Analysis
 
 Monthly Revenue Trend (2024)
 
-🔹 Store Performance
+Identification of seasonal patterns
+
+The dashboard highlights December revenue surge and post-seasonal normalization.
+
+🔹 Store Performance Analysis
 
 Top Performing Stores by Revenue
 
-🔹 Predictive Layer
+Interactive store filtering
+
+Allows management to benchmark performance across locations.
+
+🔹 Predictive Analytics Layer
 
 3-Month Revenue Forecast (Jan–Mar 2025)
 
-Generated using Excel’s ETS time-series model
+Implemented using Excel’s ETS model
 
-Includes confidence interval analysis
+Includes confidence interval bands
 
-🔍 Key Insights
+This extends the dashboard from descriptive analytics to predictive planning.
 
-Pantry drives the highest revenue contribution.
+🧠 Key Insights Generated
 
-Bakery delivers the strongest margin (~30%).
+Pantry category drives the highest revenue contribution.
 
-Produce shows the highest wastage cost, indicating operational inefficiency.
+Bakery delivers the strongest gross margin (~30%).
 
-Revenue spikes in December, followed by seasonal correction in January.
+Produce category shows the highest wastage cost, indicating operational inefficiency.
 
-Q1 2025 revenue forecast indicates stabilization between projected confidence bounds.
+Revenue peaks in December, followed by expected seasonal correction.
 
-🧠 What This Project Demonstrates
+Q1 2025 revenue forecast projects stabilization within confidence bounds.
 
-Data modeling in Excel using relational tables
+📈 Analytical Approach
 
-Writing DAX measures for business metrics
+Built relational data model inside Excel.
 
-Building interactive dashboards with slicers
+Created DAX measures for:
 
-Converting raw data into business insight
+Total Revenue
 
-Applying time-series forecasting for predictive analytics
+Gross Profit
 
-Thinking from a business decision-maker perspective
+Margin %
 
-📈 Project Outcome
+Turnover
 
-This dashboard transforms raw retail sales data into a decision-support tool that supports:
+Wastage Cost
 
-Revenue monitoring
+Designed interactive pivot-based visualizations.
 
-Profitability analysis
+Implemented slicers for dynamic filtering.
 
-Operational optimization
+Applied time-series forecasting using ETS model.
 
-Seasonal planning
+Interpreted results from a business strategy perspective.
 
-Short-term revenue forecasting
+💡 What This Project Demonstrates
 
-🚀 Next Enhancements
+Strong understanding of data modeling concepts.
 
-Implement dynamic ranking using DAX (RANKX)
+Ability to write and apply DAX measures.
 
-Add YoY comparison
+Designing executive-ready dashboards.
 
-Integrate store-level profitability analysis
+Translating data into actionable business insight.
 
-Expand forecasting horizon
+Applying time-series forecasting in Excel.
 
-Convert model to Power BI version
+Business-oriented analytical thinking.
 
-🏷 Tags
+🚀 Business Value Delivered
 
-Excel
-DAX
+The dashboard enables:
+
+Revenue monitoring at category and store level.
+
+Profitability optimization.
+
+Operational inefficiency identification.
+
+Seasonal demand planning.
+
+Short-term revenue forecasting.
+
+This type of solution supports retail management in strategic and operational decision-making.
+
+🔮 Future Enhancements
+
+Dynamic store ranking using DAX RANKX.
+
+Year-over-Year comparison.
+
+Store-level profitability breakdown.
+
+Advanced forecasting horizon.
+
+Migration to Power BI for enterprise deployment.
+
+🏷 Keywords
+
 Retail Analytics
 Business Intelligence
-Time Series Forecasting
+Excel Dashboard
+DAX
+Power Pivot
 Data Modeling
-Analytics
+Time Series Forecasting
+Executive Reporting
+
+📌 Author
+
+Adarsh Krishna
+Master’s in Data Science
+Focused on building business-oriented analytical solutions.
