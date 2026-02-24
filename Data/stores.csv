@@ -1,0 +1,21 @@
+Store_ID,Store_Name,State,Region,Store_Size_sqft,Volume_Multiplier
+S001,Coles Store 1,NSW,Metro,52626,1.3
+S002,Coles Store 2,QLD,Regional,43055,0.9
+S003,Coles Store 3,VIC,Metro,52040,1.3
+S004,Coles Store 4,VIC,Metro,50725,1.3
+S005,Coles Store 5,NSW,Metro,31373,1.3
+S006,Coles Store 6,VIC,Regional,26331,0.9
+S007,Coles Store 7,VIC,Regional,33091,0.9
+S008,Coles Store 8,WA,Regional,33663,0.9
+S009,Coles Store 9,QLD,Regional,35795,0.9
+S010,Coles Store 10,NSW,Regional,31568,0.9
+S011,Coles Store 11,VIC,Metro,39799,1.3
+S012,Coles Store 12,NSW,Regional,27103,0.9
+S013,Coles Store 13,WA,Metro,47552,1.3
+S014,Coles Store 14,QLD,Regional,28405,0.9
+S015,Coles Store 15,WA,Regional,39171,0.9
+S016,Coles Store 16,WA,Regional,36597,0.9
+S017,Coles Store 17,NSW,Regional,40761,0.9
+S018,Coles Store 18,QLD,Metro,37332,1.3
+S019,Coles Store 19,NSW,Regional,33500,0.9
+S020,Coles Store 20,QLD,Metro,37318,1.3
