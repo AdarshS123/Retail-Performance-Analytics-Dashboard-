@@ -1,5 +1,3 @@
-# Retail-Excel-Dashboard
-
 # 🛒 Retail Performance Analytics Dashboard  
 ### Excel Data Model | Power Pivot | DAX | Time-Series Forecasting
 
